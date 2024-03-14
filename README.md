@@ -8,7 +8,7 @@ the licensing and setup script loaded to run vivado
 git-lfs install
 ```
 
-2) Clone the rep
+2) Clone the repo
 ```bash
 git clone --recursive https://github.com/slaclab/Simple-VCK190-SURF-Example.git
 ```
