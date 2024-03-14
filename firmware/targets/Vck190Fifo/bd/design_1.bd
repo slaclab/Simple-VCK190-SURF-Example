@@ -1,0 +1,64 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xcvc1902-vsva2197-2MP-e-S",
+      "gen_directory": "../../../../Vck190Fifo_project.gen/sources_1/bd/bd",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "versal_cips_0": ""
+    },
+    "components": {
+      "versal_cips_0": {
+        "vlnv": "xilinx.com:ip:versal_cips:3.3",
+        "xci_name": "design_1_versal_cips_0_0",
+        "xci_path": "ip/design_1_versal_cips_0_0/design_1_versal_cips_0_0.xci",
+        "inst_hier_path": "versal_cips_0",
+        "parameters": {
+          "BOOT_MODE": {
+            "value": "Custom"
+          },
+          "DDR_MEMORY_MODE": {
+            "value": "Custom"
+          },
+          "DEBUG_MODE": {
+            "value": "JTAG"
+          },
+          "DESIGN_MODE": {
+            "value": "0"
+          },
+          "PS_PMC_CONFIG": {
+            "value": [
+              "BOOT_MODE Custom",
+              "DEBUG_MODE JTAG",
+              "DESIGN_MODE 0",
+              "PMC_QSPI_FBCLK {{ENABLE 1} {IO {PMC_MIO 6}}}",
+              "PMC_QSPI_PERIPHERAL_ENABLE 0",
+              "PMC_SD0 {{CD_ENABLE 0} {CD_IO {PMC_MIO 24}} {POW_ENABLE 0} {POW_IO {PMC_MIO 17}} {RESET_ENABLE 0} {RESET_IO {PMC_MIO 17}} {WP_ENABLE 0} {WP_IO {PMC_MIO 25}}}",
+              "PMC_SD0_PERIPHERAL {{CLK_100_SDR_OTAP_DLY 0x00} {CLK_200_SDR_OTAP_DLY 0x00} {CLK_50_DDR_ITAP_DLY 0x00} {CLK_50_DDR_OTAP_DLY 0x00} {CLK_50_SDR_ITAP_DLY 0x00} {CLK_50_SDR_OTAP_DLY 0x00} {ENABLE 0} {IO {PMC_MIO 13 .. 25}}}",
+              "PMC_SD0_SLOT_TYPE {SD 2.0}",
+              "PMC_SMAP_PERIPHERAL {{ENABLE 0} {IO {32 Bit}}}",
+              "PS_BOARD_INTERFACE Custom",
+              "PS_HSDP_EGRESS_TRAFFIC JTAG",
+              "PS_HSDP_INGRESS_TRAFFIC JTAG",
+              "PS_HSDP_MODE NONE",
+              "PS_NUM_FABRIC_RESETS 0",
+              "PS_USE_PMCPL_CLK0 0",
+              "PS_USE_PMCPL_CLK1 0",
+              "PS_USE_PMCPL_CLK2 0",
+              "PS_USE_PMCPL_CLK3 0",
+              "SMON_ALARMS Set_Alarms_On",
+              "SMON_ENABLE_TEMP_AVERAGING 0",
+              "SMON_TEMP_AVERAGING_SAMPLES 0"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
