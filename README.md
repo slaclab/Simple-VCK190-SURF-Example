@@ -1,6 +1,6 @@
 # Simple-VCK190-SURF-Example
 
-There instructions were developed using Vivado 2023.1 and assumes you already have 
+These instructions were developed using Vivado 2023.1 and assumes you already have 
 the licensing and setup script loaded to run vivado
 
 1) 1-time step to add lfs to your ~/.gitconfig
